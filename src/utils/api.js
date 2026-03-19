@@ -2,7 +2,7 @@ import { toast } from 'sonner';
 import { ERROR_CODE } from './errorCode';
 
 // src/utils/api.js
-const BASE = '';
+const BASE = 'https://packmate-api.vercel.app';
 
 const token = () => localStorage.getItem('pm_token') || '';
 const auth = () => ({ Authorization: `Bearer ${token()}` });
