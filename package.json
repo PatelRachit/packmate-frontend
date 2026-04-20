@@ -8,7 +8,7 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0",
+    "react-router-dom": "^6.30.3",
     "sonner": "^2.0.7"
   },
   "scripts": {
@@ -16,7 +16,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint src/",
+    "lint": "eslint src",
     "format": "prettier --write src/"
   },
   "devDependencies": {
